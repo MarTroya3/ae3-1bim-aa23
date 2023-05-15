@@ -12,11 +12,11 @@ cursor = conn.cursor()
 # a través de cursor su puede ejecutar comandos SQL mediante el método
 # execute
 
-# Crear una tabla denominada Autor
-# con atributos: nombre, apellido, cedula, edad
+# Crear una tabla denominada Equipo
+# con atributos: nombreequipo, clasificacion, numerojugadores
 
-cadena_sql = 'CREATE TABLE Autor (nombre TEXT, apellido TEXT, cedula TEXT, \
-            edad INTEGER)'
+cadena_sql = 'CREATE TABLE Equipo (nombreequipo TEXT, clasificacion TEXT, \
+            numerojugadores INTEGER)'
 
 # ejecutar el SQL
 cursor.execute(cadena_sql)

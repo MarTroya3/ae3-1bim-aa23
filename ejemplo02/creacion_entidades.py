@@ -15,7 +15,7 @@ cursor = conn.cursor()
 # Crear una tabla denominada Autor
 # con atributos: nombre, apellido, cedula, edad
 
-cadena_sql = 'CREATE TABLE Autor (nombre TEXT, apellido TEXT, cedula TEXT, \
+cadena_sql = 'CREATE TABLE Jugador (nombre TEXT, apellido TEXT, cedula TEXT, \
             edad INTEGER)'
 
 # ejecutar el SQL
